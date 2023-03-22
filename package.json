@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc --watch"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/cristymiro/randompasswordgenerator/issues"
   },
-  "homepage": "https://github.com/cristymiro/randompasswordgenerator#readme"
+  "homepage": "https://github.com/cristymiro/randompasswordgenerator#readme",
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
 }
